@@ -6,7 +6,7 @@ This project simulates blood flow through a vascular network using the finite el
 ## File Structure
 
 - **Geometry**
-   - Contains the `.stl` file of the original 3D geometry and the `.vtp` of the 1D geometry, from where we can extract the lenght and reference area of each vessel. The `branching_information.ipynb` is used to compute the angles of each bifurcation
+   Contains the `.stl` file of the original 3D geometry and the `.vtp` of the 1D geometry, from where we can extract the lenght and reference area of each vessel. The `branching_information.ipynb` is used to compute the angles of each bifurcation
 
 - **`geometry.py`**  
   Defines the vascular network geometry. It sets up:
