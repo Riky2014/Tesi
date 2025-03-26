@@ -5,6 +5,8 @@ This project simulates blood flow through a vascular network using the finite el
 
 ## File Structure
 
+- **Geometry**  
+
 - **`geometry.py`**  
   Defines the vascular network geometry. It sets up:
   - **Branches:** Vessel properties (length, reference area, elasticity parameter) and boundary conditions.
